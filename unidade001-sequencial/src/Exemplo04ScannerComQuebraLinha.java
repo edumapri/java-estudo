@@ -5,14 +5,14 @@ public class Exemplo04ScannerComQuebraLinha {
 
         Scanner entradaUsuario = new Scanner(System.in).useLocale(Locale.US);
 
-        System.out.print("Digite o numero de sua conta: ");
-        int conta = entradaUsuario.nextInt();
+        System.out.print("Digite o seu nome: ");
+        String nome = entradaUsuario.nextLine();
 
         System.out.print("Digite o número de sua agência: ");
         String agencia = entradaUsuario.next();
-
-        System.out.print("Digite o seu nome: ");
-        String nome = entradaUsuario.nextLine();
+        
+        System.out.print("Digite o numero de sua conta: ");
+        int conta = entradaUsuario.nextInt();
 
         System.out.print("Informe o valor de seu depósito inicial: ");
         double saldo = entradaUsuario.nextDouble();
@@ -22,6 +22,5 @@ public class Exemplo04ScannerComQuebraLinha {
                 + ", conta " + conta + " e o seu saldo " + saldo + " já está disponível para saque.");
 
         entradaUsuario.close();
-
     }
 }
