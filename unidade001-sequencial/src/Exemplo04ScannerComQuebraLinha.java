@@ -14,8 +14,6 @@ public class Exemplo04ScannerComQuebraLinha {
         System.out.print("Digite o seu nome: ");
         String nome = entradaUsuario.nextLine();
 
-        entradaUsuario.nextLine();
-
         System.out.print("Informe o valor de seu depósito inicial: ");
         double saldo = entradaUsuario.nextDouble();
 
