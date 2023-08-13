@@ -5,7 +5,7 @@ public class Exemplo04ScannerComQuebraLinha {
 
         Scanner entradaUsuario = new Scanner(System.in).useLocale(Locale.US);
 
-        System.out.print("Digite o seu nome: ");
+        System.out.print("Digite o seu nome completo: ");
         String nome = entradaUsuario.nextLine();
 
         System.out.print("Digite o número de sua agência: ");
